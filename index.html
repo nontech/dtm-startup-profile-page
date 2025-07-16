@@ -946,42 +946,45 @@
         </div>
       </div>
 
-      <!-- Data Freshness Section -->
-      <div class="max-w-7xl mx-auto mt-12">
+      <!-- Combined Data and Next Steps Section -->
+      <div
+        class="max-w-7xl mx-auto mt-12 grid grid-cols-1 lg:grid-cols-20 gap-8 items-stretch"
+      >
+        <!-- Is the data up to date? -->
         <div
-          class="bg-white p-8 rounded-xl shadow-md border border-gray-200 flex flex-col min-h-[180px]"
+          class="lg:col-span-13 bg-white p-6 rounded-xl shadow-md border border-gray-200 flex flex-col"
         >
-          <div>
-            <h2 class="text-lg font-bold text-gray-800 mb-4">
-              Is the data up to date?
-            </h2>
-            <div class="space-y-3">
-              <div class="flex items-center">
-                <span class="text-sm font-medium text-gray-500 w-28"
-                  >Last Updated:</span
-                >
-                <span class="font-semibold text-gray-900"
-                  >December 15, 2024</span
-                >
-              </div>
-              <div class="flex items-center">
-                <span class="text-sm font-medium text-gray-500 w-28"
-                  >Verification:</span
-                >
-                <div
-                  class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium inline-flex items-center"
-                >
-                  <i
-                    data-lucide="shield-check"
-                    class="w-4 h-4 mr-1.5"
-                  ></i>
-                  DTM Verified
-                </div>
+          <h2
+            class="text-2xl font-bold text-gray-800 mb-6 text-center"
+          >
+            Verification Status
+          </h2>
+          <div class="space-y-3">
+            <div class="flex items-center justify-center">
+              <span class="text-sm font-medium text-gray-500 w-28"
+                >Last Updated:</span
+              >
+              <span class="font-semibold text-gray-900"
+                >December 15, 2024</span
+              >
+            </div>
+            <div class="flex items-center justify-center">
+              <span class="text-sm font-medium text-gray-500 w-28"
+                >Verification:</span
+              >
+              <div
+                class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium inline-flex items-center"
+              >
+                <i
+                  data-lucide="shield-check"
+                  class="w-4 h-4 mr-1.5"
+                ></i>
+                DTM Verified
               </div>
             </div>
           </div>
           <div
-            class="mt-auto flex justify-end items-center space-x-2"
+            class="mt-auto pt-6 flex justify-center items-center space-x-2"
           >
             <button
               class="flex items-center justify-center py-2 px-3 border border-gray-300 rounded-lg shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50"
@@ -997,37 +1000,31 @@
             </button>
           </div>
         </div>
-      </div>
 
-      <!-- Next Steps Section -->
-      <div class="max-w-7xl mx-auto mt-8">
+        <!-- Next Steps -->
         <div
-          class="bg-white p-6 rounded-xl shadow-md border border-gray-200"
+          class="lg:col-span-7 bg-white p-6 rounded-xl shadow-md border border-gray-200 flex flex-col"
         >
-          <h2
-            class="text-2xl font-bold text-gray-800 mb-6 text-center"
-          >
+          <h2 class="text-2xl font-bold text-gray-800 mb-6">
             Next Steps
           </h2>
-          <div
-            class="flex flex-wrap justify-center items-center gap-4"
-          >
+          <div class="flex flex-col items-stretch gap-3 flex-grow">
             <button
-              class="inline-flex items-center justify-center py-3 px-6 bg-blue-900 text-white font-semibold rounded-lg shadow-md hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-900 transition-colors"
+              class="inline-flex items-center justify-center py-3 px-5 bg-blue-600 text-white font-semibold rounded-lg shadow-sm hover:bg-blue-700 transition-colors"
             >
               <i data-lucide="mail" class="w-5 h-5 mr-2.5"></i>
               <span>Contact Startup</span>
             </button>
             <button
-              class="inline-flex items-center justify-center py-3 px-6 border border-gray-300 rounded-lg shadow-sm font-semibold text-gray-800 bg-white hover:bg-gray-50 transition-colors"
+              class="inline-flex items-center justify-center py-3 px-5 border border-gray-300 rounded-lg shadow-sm font-semibold text-gray-800 bg-white hover:bg-gray-50 transition-colors"
             >
               <i data-lucide="scale" class="w-5 h-5 mr-2.5"></i>
               <span>Compare Startups</span>
             </button>
             <button
-              class="inline-flex items-center justify-center py-3 px-6 border border-gray-300 rounded-lg shadow-sm font-semibold text-gray-800 bg-white hover:bg-gray-50 transition-colors"
+              class="inline-flex items-center justify-center py-3 px-5 border border-gray-300 rounded-lg shadow-sm font-semibold text-gray-800 bg-white hover:bg-gray-50 transition-colors"
             >
-              <i data-lucide="zap" class="w-5 h-5 mr-2.5"></i>
+              <i data-lucide="file-text" class="w-5 h-5 mr-2.5"></i>
               <span>Request Technical Sheet</span>
             </button>
           </div>
