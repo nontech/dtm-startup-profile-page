@@ -12,12 +12,8 @@
     <script src="https://unpkg.com/lucide@latest"></script>
     <title>QuantumLeap AI - DTM Startup Profile</title>
   </head>
-  <body>
-    <!-- Initialize Lucide Icons -->
-    <script>
-      lucide.createIcons();
-    </script>
-    <header class="flex flex-col items-center p-8">
+  <body class="bg-gray-50">
+    <header class="flex flex-col items-center p-8 bg-white">
       <img
         src="quantumleap-logo.png"
         alt="QuantumLeap Logo"
@@ -64,5 +60,184 @@
         </div>
       </div>
     </header>
+    <main class="py-8 px-4">
+      <div
+        class="max-w-2xl mx-auto bg-white p-6 rounded-xl shadow-md border border-gray-200"
+      >
+        <div class="flex items-center mb-6">
+          <i
+            data-lucide="star"
+            class="w-6 h-6 text-yellow-400 fill-yellow-400 mr-3"
+          ></i>
+          <h2 class="text-2xl font-bold text-gray-800">
+            Match Analysis
+          </h2>
+        </div>
+
+        <div class="flex items-center mb-8">
+          <div class="relative w-24 h-24 shrink-0">
+            <svg class="w-full h-full" viewBox="0 0 100 100">
+              <defs>
+                <linearGradient
+                  id="gradient"
+                  x1="0%"
+                  y1="0%"
+                  x2="0%"
+                  y2="100%"
+                >
+                  <stop offset="0%" stop-color="#a7f3d0" />
+                  <stop offset="100%" stop-color="#34d399" />
+                </linearGradient>
+              </defs>
+              <circle
+                class="text-green-100"
+                stroke-width="10"
+                cx="50"
+                cy="50"
+                r="45"
+                fill="currentColor"
+              />
+              <circle
+                stroke="url(#gradient)"
+                stroke-width="10"
+                stroke-linecap="round"
+                cx="50"
+                cy="50"
+                r="45"
+                fill="none"
+                stroke-dasharray="282.6"
+                stroke-dashoffset="36.7"
+                transform="rotate(-90 50 50)"
+              />
+            </svg>
+            <div
+              class="absolute inset-0 flex flex-col items-center justify-center"
+            >
+              <span class="text-3xl font-bold text-gray-800"
+                >8.7</span
+              >
+              <span class="text-sm text-gray-500">/ 10</span>
+            </div>
+          </div>
+          <div class="ml-6">
+            <p class="text-xl font-semibold text-gray-800">
+              Excellent Match
+            </p>
+            <p class="text-gray-600">
+              High compatibility with your requirements
+            </p>
+          </div>
+        </div>
+
+        <div class="space-y-3">
+          <div
+            class="flex items-center justify-between p-4 rounded-lg border border-gray-200"
+          >
+            <div class="flex items-center">
+              <i
+                data-lucide="check-circle-2"
+                class="w-5 h-5 text-green-500 mr-3"
+              ></i>
+              <span class="font-medium text-gray-700"
+                >AI/ML Capabilities</span
+              >
+            </div>
+            <span
+              class="text-sm font-medium text-green-800 bg-green-100 px-3 py-1 rounded-full"
+              >Fully Meets</span
+            >
+          </div>
+          <div
+            class="flex items-center justify-between p-4 rounded-lg border border-gray-200"
+          >
+            <div class="flex items-center">
+              <i
+                data-lucide="check-circle-2"
+                class="w-5 h-5 text-green-500 mr-3"
+              ></i>
+              <span class="font-medium text-gray-700"
+                >Energy Efficiency</span
+              >
+            </div>
+            <span
+              class="text-sm font-medium text-green-800 bg-green-100 px-3 py-1 rounded-full"
+              >Fully Meets</span
+            >
+          </div>
+          <div
+            class="flex items-center justify-between p-4 rounded-lg border border-gray-200"
+          >
+            <div class="flex items-center">
+              <i
+                data-lucide="alert-circle"
+                class="w-5 h-5 text-orange-500 mr-3"
+              ></i>
+              <span class="font-medium text-gray-700"
+                >Scalability</span
+              >
+            </div>
+            <span
+              class="text-sm font-medium text-orange-800 bg-orange-100 px-3 py-1 rounded-full"
+              >Partially Meets</span
+            >
+          </div>
+          <div
+            class="flex items-center justify-between p-4 rounded-lg border border-gray-200"
+          >
+            <div class="flex items-center">
+              <i
+                data-lucide="check-circle-2"
+                class="w-5 h-5 text-green-500 mr-3"
+              ></i>
+              <span class="font-medium text-gray-700"
+                >Integration APIs</span
+              >
+            </div>
+            <span
+              class="text-sm font-medium text-green-800 bg-green-100 px-3 py-1 rounded-full"
+              >Fully Meets</span
+            >
+          </div>
+          <div
+            class="flex items-center justify-between p-4 rounded-lg border border-gray-200"
+          >
+            <div class="flex items-center">
+              <i
+                data-lucide="alert-circle"
+                class="w-5 h-5 text-orange-500 mr-3"
+              ></i>
+              <span class="font-medium text-gray-700"
+                >Regulatory Compliance</span
+              >
+            </div>
+            <span
+              class="text-sm font-medium text-orange-800 bg-orange-100 px-3 py-1 rounded-full"
+              >Partially Meets</span
+            >
+          </div>
+          <div
+            class="flex items-center justify-between p-4 rounded-lg border border-gray-200"
+          >
+            <div class="flex items-center">
+              <i
+                data-lucide="x-circle"
+                class="w-5 h-5 text-red-500 mr-3"
+              ></i>
+              <span class="font-medium text-gray-700"
+                >Geographic Presence</span
+              >
+            </div>
+            <span
+              class="text-sm font-medium text-red-800 bg-red-100 px-3 py-1 rounded-full"
+              >Does Not Meet</span
+            >
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Initialize Lucide Icons -->
+    <script>
+      lucide.createIcons();
+    </script>
   </body>
 </html>
